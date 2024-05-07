@@ -1,0 +1,110 @@
+@media (max-width: 600px) {
+  .name,
+  .score {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    background-color: #c7365f;
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    align-self: center;
+  }
+
+  .current-label,
+  .current-score {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  main {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #name--1 {
+    background-color: rgb(119, 63, 130);
+    padding: 1rem 5rem;
+    border-radius: 1rem;
+  }
+
+  .btn {
+    position: relative;
+    left: 0%;
+    top: 0;
+    justify-content: center;
+    transform: none;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+  }
+
+  .btn:active {
+    transform: translate(0, 3px);
+  }
+
+  #buttons {
+    position: absolute;
+    display: flex;
+    bottom: 2rem;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .dice {
+    top: 12rem;
+    width: 12rem;
+    height: auto;
+  }
+
+  .player {
+    flex: 90%;
+    width: 90vh;
+    display: none;
+    justify-content: center;
+    align-items: end;
+    padding: 9rem 3rem;
+  }
+
+  .player--active {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    top: 10rem;
+    justify-content: end;
+  }
+
+  .current {
+    display: block;
+    padding: 1rem;
+    width: 50vw;
+    align-self: center;
+  }
+
+  .player--winner {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    background-color: #2f2f2f;
+  }
+
+  .player--winner .name {
+    font-weight: 700;
+    color: white;
+  }
+
+  .hidden {
+    display: hidden;
+  }
+
+  .trophy {
+    display: inline-block;
+    align-self: center;
+    font-size: 4rem;
+    padding-bottom: 1rem;
+  }
+}
