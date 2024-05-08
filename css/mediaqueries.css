@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .name,
   .score {
     font-size: 2rem;
@@ -18,11 +18,12 @@
   }
 
   main {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: absolute;
     align-items: center;
     justify-content: center;
+    background-color: gainsboro;
   }
 
   #name--1 {
@@ -74,7 +75,9 @@
     display: flex;
     flex-direction: column;
     height: 90vh;
+    width: auto;
     top: 10rem;
+    background: none;
     justify-content: end;
   }
 
